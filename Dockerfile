@@ -116,7 +116,8 @@ liblapack-dev \
 libblas-dev \
 gfortran \
 unixodbc-dev \
-libaugeas0
+libaugeas0 \
+python-is-python3
 RUN DEBIAN_FRONTEND=noninteractive \
 apt-get -q -y install \
 libgdbm-dev \
